@@ -18,7 +18,7 @@ You can use me to generate pyrogram and telethon string session. Use the below b
     ]
 
     generate_button = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")]
+        [InlineKeyboardButton(" Start Generating Session ", callback_data="generate")]
     ]
 
     support_button = [
@@ -27,12 +27,11 @@ You can use me to generate pyrogram and telethon string session. Use the below b
 
     # Rest Buttons
     buttons = [
-        [InlineKeyboardButton("🔥 Start Generating Session 🔥", callback_data="generate")],
+        [InlineKeyboardButton(" Start Generating Session ", callback_data="generate")],
 
         [
             InlineKeyboardButton("How to Use ❔", callback_data="help"),
-            InlineKeyboardButton(" About", callback_data="about")
-        ],
+            
         [InlineKeyboardButton("Owner ", url="https://t.me/Mr_Devil_Ultra")],
     ]
 
